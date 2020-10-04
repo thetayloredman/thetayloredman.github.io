@@ -9,7 +9,8 @@
 
 div.headerbox {
     width: 100%;
-    padding: 5px;
+    padding: 30px;
+    text-align: center;
 }
 div.headerbox h1 {
     font-size: 60px;
