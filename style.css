@@ -18,3 +18,13 @@ div.headerbox h1 {
 div.headerbox h2 {
     font-size: 30px;
 }
+
+div.whatis {
+    margin: 20px;
+}
+div.whatis h1 {
+    font-size: 50px;
+}
+div.whatis h2 {
+    font-size: 20px;
+}
