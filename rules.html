@@ -13,9 +13,38 @@
         </div>
         <div class="rules">
             <h1>CleanJS Rules</h1>
-            <div class="rule">
+            <div class="rule" id="1">
                 <h1>Rule 1: Indents must use 4 spaces</h1>
-                
+                <div class="rule-detail">
+                    <h2>Exceptions</h2>
+                    <b>None</b>
+                </div>
+                <div class="rule-example">
+                    <pre><code class="language-js">// CleanJS Example - Rule 1
+
+if ('a' === 'a') { // BAD
+  console.log('"a" === "a"!');
+}
+
+if ('a' === 'a') { // BAD
+console.log('"a" === "a"!');
+}
+
+if ('a' === 'a') { // GOOD
+    console.log('"a" === "a"!');
+}</code></pre>
+                </div>
+            </div>
+            <div class="rule" id="2">
+                <h1>Rule 2: All strings must use singlequotes</h1>
+                <div class="rule-detail">
+                    <h2>Exceptions</h2>
+                    <ul>
+                        <li>
+                            <p>Avoiding escaping</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </body>
