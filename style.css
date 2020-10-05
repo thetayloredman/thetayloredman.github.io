@@ -46,4 +46,5 @@ a {
 }
 a:hover {
     box-shadow: inset 0 -1.5em rgba(19,105,225,.24);
+    text-decoration: underline solid red;
 }
