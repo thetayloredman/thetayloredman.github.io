@@ -55,11 +55,6 @@ div.rules {
 div.rules h1 {
     font-size: 50px;
 }
-
 div.rule h1 {
     font-size: 40px;
-}
-
-.section-header::before {
-    content: '';
 }
